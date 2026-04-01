@@ -1330,8 +1330,8 @@ subroutine alphasum(MTM,rae,pcsum)
   s1=aar(numbercalc)/sqrt(pc)
   initialcoeff(1)=xx/2.0+s1/4.0+con2
   initialcoeffcc(1)=initialcoeff(1)-s1/2.0-2*con2
-  initialcoeff(1)=initialcoeff(1)-anint(initialcoeff(1),dp1)
-  initialcoeffcc(1)=initialcoeffcc(1)-anint(initialcoeffcc(1),dp1)
+  initialcoeff(1)=initialcoeff(1)-anint(initialcoeff(1),dp)
+  initialcoeffcc(1)=initialcoeffcc(1)-anint(initialcoeffcc(1),dp)
 
 
   !  parameters phi2
