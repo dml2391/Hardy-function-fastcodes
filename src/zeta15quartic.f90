@@ -1260,8 +1260,8 @@ subroutine alphasum(MTM,rae,pcsum,m)
    initialcoeffcc(4)=initialcoeff(4)
   endif
 
-  initialcoeff(1)=initialcoeff(1)-anint(initialcoeff(1),dp1)
-  initialcoeffcc(1)=initialcoeffcc(1)-anint(initialcoeffcc(1),dp1)
+  initialcoeff(1)=initialcoeff(1)-anint(initialcoeff(1),dp)
+  initialcoeffcc(1)=initialcoeffcc(1)-anint(initialcoeffcc(1),dp)
 
 
   !      If sum length is short - i.e. MTM<KCUT, then compute each sum directly.
